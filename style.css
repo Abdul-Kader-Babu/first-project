@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Poppins:wght@200;300;500&display=swap');
+html{
+    --primary-color:#878CFF;
+    font-size: 62.50%;
+    --first-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.6rem;
+}
+a{
+    font-size: 1.6rem;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+ul{
+    list-style-type: none;
+}
+
+/* global set up end here  */
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+
+
+/* header start here  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+    align-items: center;
+    padding-top: 2.5rem;
+    
+}
+.nav nav ul {
+     display: flex; 
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.nav nav ul a{
+    text-decoration: none;
+    color: #000;
+    transition: all .3s  linear;
+}
+.nav nav ul a:hover {
+    color: var(--primary-color);
+   
+
+    
+}
+.nav p{
+    color: white;
+    background-color: #383838;
+    padding: 1rem 1.8rem;
+    border-radius: .8rem;
+    transition: all .2s  linear;
+    
+}
+.nav p:hover{
+    box-shadow: var(--first-box-shadow);
+    background-color: white;
+    color:#383838 ;
+}
+.bottom-of-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 11.6rem auto;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.bottom-of-header h1{
+    width: 31rem;
+    
+       
+}
+.bottom-of-header p{
+    width: 45rem;
+}
+.bottom-of-header span{
+    color: var(--primary-color);
+}
+.bottom-of-header-download-resume p {
+    background-color: var(--primary-color);
+     height: 4rem;
+    width: 22rem;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: WHITE;
+    border-radius: .6rem;
+    transition: all 2s, .2s ease-in-out;
+    margin-top: 1.5rem;
+    
+}
+.bottom-of-header-download-resume p:hover{
+    background-color: #000;
+    color: var(--primary-color);
+    box-shadow: var(--first-box-shadow);
+}
+/* header end here  */
+
+/* delight to meet you start here  */
+.delight-to-meet-you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.right-of-delight-to-meet-you{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.right-of-delight-to-meet-you h1 span{
+    color: var(--primary-color);
+}
+.left-of-delight-to-meet-you img{
+    height: 35rem;
+    width: 35rem;
+}
+.delight-to-meet-you-button{
+    margin-top: 1rem;
+}
+.delight-to-meet-you-button a{
+    background-color: var(--primary-color);
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border-radius: .6rem;
+    color: white;
+    transition: all 2s, .2s ease-in-out;
+    
+
+}
+.delight-to-meet-you-button a:hover{
+    background-color: #000;
+    color: var(--primary-color);
+    box-shadow: var(--first-box-shadow);
+}
+
+/* delight to meet you end here  */
+
+/* my work section start here  */
+
+.my-work{
+    margin-top: 8.8rem;
+}
+.my-work h1{
+    text-align: center;
+    color: var(--primary-color);
+}
+.my-work span{
+    color: #000;
+}
+.Three-picture-in-my-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 10rem; */
+    
+}
+.Three-picture-in-my-work p{
+    padding-left: 4.6rem;
+    font-size: 2rem;
+    
+   
+}
+.Three-picture-in-my-work a{
+    padding-left: 4.6rem;
+    color: var(--primary-color);
+    
+    
+   
+}
+/* my work section end here  */
+
+/* insight-section start here  */
+.insight{
+    margin-top: 14.1rem;
+    
+}
+.heading-of-insight{
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+.feature-section-of-insight{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 2.8rem;
+}
+.insight-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    flex-basis: 50%;
+    padding: 3rem 1.5rem;
+    box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; 
+}
+.insight-section-left p{
+    text-align: justify;
+}
+.insight-section-left a{
+    color: var(--primary-color);
+}
+.insight-section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    gap: 2rem;
+    flex-basis: 50%;
+    padding: 3rem 1.5rem;
+    box-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; 
+}
+.insight-section-right p{
+    text-align: justify;
+}
+.insight-section-right a{
+    color: var(--primary-color);
+}
+
+/* insight-section end here  */
+/* footer start here  */
+
+.footer{
+    margin-top: 10.4rem;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+}
+.icon-of-footer{
+    display: flex;
+    justify-content: center;
+    gap: 4.4rem;
+}
+.icon-of-footer i{
+    font-size: 4rem;
+    color: white;
+}
+.copyright-of-footer P{
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+
+/* footer end here  */
+
+

@@ -1,0 +1,135 @@
+@media(max-width:1000px){
+    
+    .my-work-box p{
+        font-size: 1.5rem ;
+        text-align: justify;
+        padding-left: 2rem;
+    }
+    .my-work-box a{
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+    .my-work-box {
+        height: 25rem;
+        width: 35rem;
+    }
+    .icon-of-footer i{
+        font-size: 3rem;
+        color: rgba(30, 238, 175, 0.89);
+    }
+
+}
+
+@media(max-width:700px){
+    .my-work-box p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .delight-to-meet-you{
+        height: fit-content;
+    }
+    .left-of-delight-to-meet-you img{
+        height: 25rem;
+        width: 30rem;
+    }
+    .right-of-delight-to-meet-you h1{
+        font-size: 2.2rem;
+    }
+    .right-of-delight-to-meet-you p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .right-of-delight-to-meet-you a{
+       
+        padding: .8rem 1.4rem;
+        text-decoration: none;
+        border-radius: .5rem;
+        
+    }
+    .my-work h1{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    
+    .insight{
+        
+        margin-top: 8.1rem;
+    }
+    .heading-of-insight h1{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .insight-section-left{
+        height: fit-content;
+    }
+    .insight-section-left h2{
+        font-size:1.8rem ;
+    }
+    .insight-section-left p{
+        font-size: 1.2rem;
+    }
+    .insight-section-left a {
+        font-size: 1.2rem;
+    }
+
+    .insight-section-right{
+        height: fit-content;
+    }
+    .insight-section-right h2{
+        font-size:1.8rem ;
+    }
+    .insight-section-right p{
+        font-size: 1.2rem;
+    }
+    .insight-section-right a {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:500px){
+    .nav nav {
+        display: none;
+    }
+    .nav p{
+        padding: .7rem 1.2rem;
+    }
+    .insight-section-left{
+        width: 20rem;
+        
+        padding: 2rem .8rem;
+        gap: 1.2rem;
+    }
+    .insight-section-left h2{
+        font-size:1.8rem ;
+        text-align: justify;
+       
+    }
+    .insight-section-right{
+        width: 20rem;
+        
+        padding: 2rem .8rem;
+        gap: 1.2rem;
+    }
+    .insight-section-right h2{
+        font-size: 1.8rem ;
+        text-align: justify;
+        
+       
+    }
+    .footer{
+        margin-top: 6rem;
+        gap: 1.2rem;
+        padding: 2.5rem 0rem;
+
+    }
+    .icon-of-footer {
+        gap: 2.5rem;
+    }
+    .icon-of-footer i {
+        font-size: 2rem;
+    }
+    .copyright-of-footer P{
+        font-size: 1rem;
+    }
+      
+
+}
